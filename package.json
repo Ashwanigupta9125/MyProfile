@@ -1,9 +1,10 @@
 {
   "name": "portfolio",
+  "homepage": "https://Ashwanigupta9125.github.io/MyProfile",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-   "@emailjs/browser": "^3.11.0",
+    "@emailjs/browser": "^3.11.0",
     "@emotion/react": "^11.11.0",
     "@emotion/styled": "^11.11.0",
     "@mui/icons-material": "^5.11.16",
@@ -23,13 +24,14 @@
     "styled-components": "^5.3.5",
     "typewriter-effect": "^2.19.0",
     "web-vitals": "^2.1.4"
-    
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,3 +52,4 @@
     ]
   }
 }
+
